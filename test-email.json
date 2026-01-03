@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "id": "3",
+  "method": "tools/call",
+  "params": {
+    "name": "EXECUTE_TOOL",
+    "arguments": {
+      "tool_name": "GMAIL__SEND_EMAIL",
+      "tool_arguments": {
+        "sender": "me",
+        "recipient": "sav.bojko@gmail.com",
+        "subject": "Test from Gate.22",
+        "body": "Hello! This is a test email from your immigration app via Gate.22 MCP."
+      }
+    }
+  }
+}
